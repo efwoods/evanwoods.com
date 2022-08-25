@@ -132,4 +132,194 @@
   content: '🎭 ';
 }
 
+.cta-btn--reveal--pronouns {
+  color: $white-color;
+  border: 2px solid $white-color;
 
+  &::after {
+    background: $white-color;
+  }
+  &::before {
+    content: "Pronouns:"
+  }
+
+  &:hover {
+    color: $secondary-color;
+    text-decoration: none;
+    span {
+      display: none
+    }
+    &::before {
+     content: "Pronouns: He/Him"
+    }
+
+    &::after {
+      width: 100%;
+    }
+  }
+  
+
+}
+
+.cta-btn--reveal--fun-fact {
+  color: $white-color;
+  border: 2px solid $white-color;
+
+  &::after {
+    background: $white-color;
+  }
+  &::before {
+    content: "Fun Fact:"
+  }
+
+  &:hover {
+    color: $secondary-color;
+    text-decoration: none;
+    span {
+      display: none
+    }
+    &::before {
+     content: "Fun fact: I was a child actor in a variety of plays with the Charleston Stage Company."
+    }
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+.cta-btn--reveal--ask-me-about {
+  color: $white-color;
+  border: 2px solid $white-color;
+
+  &::after {
+    background: $white-color;
+  }
+  &::before {
+    content: "Ask me about: "
+  }
+
+  &:hover {
+    color: $secondary-color;
+    text-decoration: none;
+    span {
+      display: none
+    }
+    &::before {
+     content: "Ask me about: My Past Projects!"
+    }
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+.cta-btn--reveal--working-on {
+  color: $white-color;
+  border: 2px solid $white-color;
+
+  &::after {
+    background: $white-color;
+  }
+  &::before {
+    content: "I'm currently working on..."
+  }
+
+  &:hover {
+    color: $secondary-color;
+    text-decoration: none;
+    span {
+      display: none
+    }
+    &::before {
+     content: "I'm currently working on the Tensorflow Developer Certificate"
+    }
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+
+.cta-btn--reveal--currently-learning {
+  color: $white-color;
+  border: 2px solid $white-color;
+
+  &::after {
+    background: $white-color;
+  }
+  &::before {
+    content: "I'm currently learning..."
+  }
+
+  &:hover {
+    color: $secondary-color;
+    text-decoration: none;
+    span {
+      display: none
+    }
+    &::before {
+     content: "I’m currently learning Tensorflow!"
+    }
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+.cta-btn--reveal--collaborate-on {
+  color: $white-color;
+  border: 2px solid $white-color;
+
+  &::after {
+    background: $white-color;
+  }
+  &::before {
+    content: "I’m looking to collaborate on..."
+  }
+
+  &:hover {
+    color: $secondary-color;
+    text-decoration: none;
+    span {
+      display: none
+    }
+    &::before {
+     content: "I’m looking to collaborate on the TensorFlow Developer Certificate in 2022: Zero to Mastery!"
+    }
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+.cta-btn--reveal--help-with {
+  color: $white-color;
+  border: 2px solid $white-color;
+
+  &::after {
+    background: $white-color;
+  }
+  &::before {
+    content: "I'm looking for help with.."
+  }
+
+  &:hover {
+    color: $secondary-color;
+    text-decoration: none;
+    span {
+      display: none
+    }
+    &::before {
+     content: "I'm looking for help with sponsorships!"
+    }
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
