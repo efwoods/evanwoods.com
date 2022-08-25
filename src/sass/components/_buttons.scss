@@ -93,3 +93,32 @@
 .up i {
   color: #272727;
 }
+
+/* Emoji List-Style */
+.cta-btn--emoji {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cta-btn--emoji li {
+  text-indent: -0.75rem;
+}
+
+.cta-btn--emoji li::before {
+  content: '🔭 ';
+  font-size:large;
+  display: inline;
+}
+.cta-btn--emoji li:nth-child(2)::before {
+  content: '🐆 ';
+}
+.cta-btn--emoji li:nth-child(3)::before {
+  content: '🦏 ';
+}
+.cta-btn--emoji li:nth-child(4)::before {
+  content: '🐘 ';
+}
+.cta-btn--emoji li:nth-child(5)::before {
+  content: '🐃 ';
+}
