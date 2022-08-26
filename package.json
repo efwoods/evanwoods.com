@@ -12,8 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/cobidev/simplefolio"
   },
-  "keywords": [],
-  "author": "Jacobo Martinez",
+  "keywords": ["name", "evan"],
+  "author": "Evan Woods",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cobidev/simplefolio/issues"
